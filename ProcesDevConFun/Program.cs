@@ -19,7 +19,7 @@ namespace ProcesDevConFun
             usbDevicesTest.InitEnviroment();
             usbDevicesTest.RunTest();
             usbDevicesTest.EndTest();
-
+//To można w liscie wykonać ;) List<TestBase> i w niej oba powyższe w for each;) Dobre pytanie czy wykona się z klasy normalnej czy bazowej
         }
     }
 }
