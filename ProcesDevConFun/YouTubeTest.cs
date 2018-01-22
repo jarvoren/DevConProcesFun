@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,13 +15,15 @@ namespace ProcesDevConFun
         {
             base.InitEnviroment();
 
-            link = "";
+            link = "https://www.youtube.com/watch?v=V-zXT5bIBM0";
 
         }
 
         public override void RunTest()
         {
             base.RunTest();
+            
+            Process.Start(link);
 
             Console.ReadLine();
         }
